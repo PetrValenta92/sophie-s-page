@@ -1,0 +1,109 @@
+body {
+  text-align: center;
+  font-family: "Roboto", sans-serif;
+  font-size: 1.3125rem;
+  font-weight: 300;
+  margin: 0;
+}
+
+/* Typography */
+h1,
+h2 {
+  font-weight: 300;
+}
+
+h1 {
+  font-size: 3.75rem;
+  margin-top: 0;
+}
+
+h2 {
+  font-size: 2.625rem;
+  margin-top: 0;
+  padding: 1.75rem 0;
+  border-top: 1px solid #c4c4c4;
+  border-bottom: 1px solid #c4c4c4;
+}
+
+h3 {
+  font-size: 2.25rem;
+  font-weight: 900;
+  margin-bottom: 0;
+}
+
+p {
+  margin-bottom: 0;
+}
+
+.signature {
+  font-size: 1rem;
+  margin-top: 0.5rem;
+}
+
+h1 .accent-text {
+  font-size: 5rem;
+}
+
+h2 .accent-text {
+  font-size: 3.75rem;
+}
+
+.accent-text,
+.name,
+time {
+  color: #99d930;
+  font-weight: 900;
+}
+
+/* Layout */
+
+header,
+section {
+  padding: 6.25rem 0;
+}
+
+.section-dark {
+  background-color: #252525;
+  color: #fff;
+}
+
+.container {
+  max-width: 35.625rem;
+  margin: 0 auto;
+}
+
+/* Links */
+
+a {
+  color: #99d930;
+}
+
+a:hover,
+a:focus,
+a:active {
+  color: #131313;
+}
+
+.btn {
+  display: inline-block;
+  padding: 1rem 2rem;
+  margin-top: 2rem;
+  background-color: #99d930;
+  color: #252525;
+  text-decoration: none;
+  font-weight: 900;
+}
+
+.btn:hover,
+.btn:focus,
+.btn:active {
+  background-color: #252525;
+  color: #fff;
+}
+
+.section-dark .btn:hover,
+.section-dark .btn:focus,
+.section-dark .btn:active {
+  color: #252525;
+  background-color: #fff;
+}
