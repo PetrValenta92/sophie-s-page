@@ -40,6 +40,10 @@ p {
   margin-top: 0.5rem;
 }
 
+.accent-text {
+  display: block;
+}
+
 h1 .accent-text {
   font-size: 5rem;
 }
